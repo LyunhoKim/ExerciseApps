@@ -7,35 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7C39EFC521DE3E14001B07FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C39EFC421DE3E14001B07FD /* AppDelegate.swift */; };
-		7C39EFCA21DE3E14001B07FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C39EFC821DE3E14001B07FD /* Main.storyboard */; };
-		7C39EFCC21DE3E17001B07FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C39EFCB21DE3E17001B07FD /* Assets.xcassets */; };
-		7C39EFCF21DE3E17001B07FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C39EFCD21DE3E17001B07FD /* LaunchScreen.storyboard */; };
-		7C39EFD721E0A03A001B07FD /* TableMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C39EFD621E0A03A001B07FD /* TableMainViewController.swift */; };
-		7C39EFD921E0AF1F001B07FD /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C39EFD821E0AF1F001B07FD /* MovieTableViewCell.swift */; };
-		7C39EFDB21E0B24F001B07FD /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C39EFDA21E0B24F001B07FD /* Movie.swift */; };
-		7C39EFDE21E0B2AD001B07FD /* MovieInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C39EFDD21E0B2AD001B07FD /* MovieInfo.swift */; };
-		7C39EFE021E0B2BA001B07FD /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C39EFDF21E0B2BA001B07FD /* Comment.swift */; };
-		7C80D8DE21EAF87D00D330D1 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C80D8DD21EAF87D00D330D1 /* MovieDetailViewController.swift */; };
+		7C8DFD9721EF678E00D7C1D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8DFD9621EF678E00D7C1D2 /* AppDelegate.swift */; };
+		7C8DFD9921EF678E00D7C1D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8DFD9821EF678E00D7C1D2 /* ViewController.swift */; };
+		7C8DFD9C21EF678E00D7C1D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C8DFD9A21EF678E00D7C1D2 /* Main.storyboard */; };
+		7C8DFD9E21EF678E00D7C1D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C8DFD9D21EF678E00D7C1D2 /* Assets.xcassets */; };
+		7C8DFDA121EF678E00D7C1D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C8DFD9F21EF678E00D7C1D2 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7C39EFC121DE3E14001B07FD /* BoxOffice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoxOffice.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7C39EFC421DE3E14001B07FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7C39EFC921DE3E14001B07FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7C39EFCB21DE3E17001B07FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7C39EFCE21DE3E17001B07FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7C39EFD021DE3E17001B07FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7C39EFD621E0A03A001B07FD /* TableMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableMainViewController.swift; sourceTree = "<group>"; };
-		7C39EFD821E0AF1F001B07FD /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
-		7C39EFDA21E0B24F001B07FD /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
-		7C39EFDD21E0B2AD001B07FD /* MovieInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieInfo.swift; sourceTree = "<group>"; };
-		7C39EFDF21E0B2BA001B07FD /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
-		7C80D8DD21EAF87D00D330D1 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
+		7C8DFD9321EF678E00D7C1D2 /* AutoLayout_Rotate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayout_Rotate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C8DFD9621EF678E00D7C1D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7C8DFD9821EF678E00D7C1D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7C8DFD9B21EF678E00D7C1D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7C8DFD9D21EF678E00D7C1D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7C8DFDA021EF678E00D7C1D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7C8DFDA221EF678E00D7C1D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7C39EFBE21DE3E14001B07FD /* Frameworks */ = {
+		7C8DFD9021EF678E00D7C1D2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -45,84 +35,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7C39EFB821DE3E14001B07FD = {
+		7C8DFD8A21EF678E00D7C1D2 = {
 			isa = PBXGroup;
 			children = (
-				7C39EFC321DE3E14001B07FD /* BoxOffice */,
-				7C39EFC221DE3E14001B07FD /* Products */,
+				7C8DFD9521EF678E00D7C1D2 /* AutoLayout_Rotate */,
+				7C8DFD9421EF678E00D7C1D2 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		7C39EFC221DE3E14001B07FD /* Products */ = {
+		7C8DFD9421EF678E00D7C1D2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7C39EFC121DE3E14001B07FD /* BoxOffice.app */,
+				7C8DFD9321EF678E00D7C1D2 /* AutoLayout_Rotate.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7C39EFC321DE3E14001B07FD /* BoxOffice */ = {
+		7C8DFD9521EF678E00D7C1D2 /* AutoLayout_Rotate */ = {
 			isa = PBXGroup;
 			children = (
-				7C39EFDC21E0B268001B07FD /* Types */,
-				7C39EFC421DE3E14001B07FD /* AppDelegate.swift */,
-				7C39EFC821DE3E14001B07FD /* Main.storyboard */,
-				7C39EFD621E0A03A001B07FD /* TableMainViewController.swift */,
-				7C80D8DD21EAF87D00D330D1 /* MovieDetailViewController.swift */,
-				7C39EFD821E0AF1F001B07FD /* MovieTableViewCell.swift */,
-				7C39EFCB21DE3E17001B07FD /* Assets.xcassets */,
-				7C39EFCD21DE3E17001B07FD /* LaunchScreen.storyboard */,
-				7C39EFD021DE3E17001B07FD /* Info.plist */,
+				7C8DFD9621EF678E00D7C1D2 /* AppDelegate.swift */,
+				7C8DFD9821EF678E00D7C1D2 /* ViewController.swift */,
+				7C8DFD9A21EF678E00D7C1D2 /* Main.storyboard */,
+				7C8DFD9D21EF678E00D7C1D2 /* Assets.xcassets */,
+				7C8DFD9F21EF678E00D7C1D2 /* LaunchScreen.storyboard */,
+				7C8DFDA221EF678E00D7C1D2 /* Info.plist */,
 			);
-			path = BoxOffice;
-			sourceTree = "<group>";
-		};
-		7C39EFDC21E0B268001B07FD /* Types */ = {
-			isa = PBXGroup;
-			children = (
-				7C39EFDA21E0B24F001B07FD /* Movie.swift */,
-				7C39EFDD21E0B2AD001B07FD /* MovieInfo.swift */,
-				7C39EFDF21E0B2BA001B07FD /* Comment.swift */,
-			);
-			path = Types;
+			path = AutoLayout_Rotate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7C39EFC021DE3E14001B07FD /* BoxOffice */ = {
+		7C8DFD9221EF678E00D7C1D2 /* AutoLayout_Rotate */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7C39EFD321DE3E17001B07FD /* Build configuration list for PBXNativeTarget "BoxOffice" */;
+			buildConfigurationList = 7C8DFDA521EF678E00D7C1D2 /* Build configuration list for PBXNativeTarget "AutoLayout_Rotate" */;
 			buildPhases = (
-				7C39EFBD21DE3E14001B07FD /* Sources */,
-				7C39EFBE21DE3E14001B07FD /* Frameworks */,
-				7C39EFBF21DE3E14001B07FD /* Resources */,
+				7C8DFD8F21EF678E00D7C1D2 /* Sources */,
+				7C8DFD9021EF678E00D7C1D2 /* Frameworks */,
+				7C8DFD9121EF678E00D7C1D2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = BoxOffice;
-			productName = BoxOffice;
-			productReference = 7C39EFC121DE3E14001B07FD /* BoxOffice.app */;
+			name = AutoLayout_Rotate;
+			productName = AutoLayout_Rotate;
+			productReference = 7C8DFD9321EF678E00D7C1D2 /* AutoLayout_Rotate.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7C39EFB921DE3E14001B07FD /* Project object */ = {
+		7C8DFD8B21EF678E00D7C1D2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Lyunho Kim";
 				TargetAttributes = {
-					7C39EFC021DE3E14001B07FD = {
+					7C8DFD9221EF678E00D7C1D2 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = 7C39EFBC21DE3E14001B07FD /* Build configuration list for PBXProject "BoxOffice" */;
+			buildConfigurationList = 7C8DFD8E21EF678E00D7C1D2 /* Build configuration list for PBXProject "AutoLayout_Rotate" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -130,59 +107,54 @@
 				en,
 				Base,
 			);
-			mainGroup = 7C39EFB821DE3E14001B07FD;
-			productRefGroup = 7C39EFC221DE3E14001B07FD /* Products */;
+			mainGroup = 7C8DFD8A21EF678E00D7C1D2;
+			productRefGroup = 7C8DFD9421EF678E00D7C1D2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7C39EFC021DE3E14001B07FD /* BoxOffice */,
+				7C8DFD9221EF678E00D7C1D2 /* AutoLayout_Rotate */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7C39EFBF21DE3E14001B07FD /* Resources */ = {
+		7C8DFD9121EF678E00D7C1D2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C39EFCF21DE3E17001B07FD /* LaunchScreen.storyboard in Resources */,
-				7C39EFCC21DE3E17001B07FD /* Assets.xcassets in Resources */,
-				7C39EFCA21DE3E14001B07FD /* Main.storyboard in Resources */,
+				7C8DFDA121EF678E00D7C1D2 /* LaunchScreen.storyboard in Resources */,
+				7C8DFD9E21EF678E00D7C1D2 /* Assets.xcassets in Resources */,
+				7C8DFD9C21EF678E00D7C1D2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7C39EFBD21DE3E14001B07FD /* Sources */ = {
+		7C8DFD8F21EF678E00D7C1D2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C39EFD721E0A03A001B07FD /* TableMainViewController.swift in Sources */,
-				7C39EFD921E0AF1F001B07FD /* MovieTableViewCell.swift in Sources */,
-				7C39EFE021E0B2BA001B07FD /* Comment.swift in Sources */,
-				7C39EFC521DE3E14001B07FD /* AppDelegate.swift in Sources */,
-				7C80D8DE21EAF87D00D330D1 /* MovieDetailViewController.swift in Sources */,
-				7C39EFDE21E0B2AD001B07FD /* MovieInfo.swift in Sources */,
-				7C39EFDB21E0B24F001B07FD /* Movie.swift in Sources */,
+				7C8DFD9921EF678E00D7C1D2 /* ViewController.swift in Sources */,
+				7C8DFD9721EF678E00D7C1D2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7C39EFC821DE3E14001B07FD /* Main.storyboard */ = {
+		7C8DFD9A21EF678E00D7C1D2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7C39EFC921DE3E14001B07FD /* Base */,
+				7C8DFD9B21EF678E00D7C1D2 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		7C39EFCD21DE3E17001B07FD /* LaunchScreen.storyboard */ = {
+		7C8DFD9F21EF678E00D7C1D2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7C39EFCE21DE3E17001B07FD /* Base */,
+				7C8DFDA021EF678E00D7C1D2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -190,7 +162,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		7C39EFD121DE3E17001B07FD /* Debug */ = {
+		7C8DFDA321EF678E00D7C1D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -251,7 +223,7 @@
 			};
 			name = Debug;
 		};
-		7C39EFD221DE3E17001B07FD /* Release */ = {
+		7C8DFDA421EF678E00D7C1D2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -306,34 +278,34 @@
 			};
 			name = Release;
 		};
-		7C39EFD421DE3E17001B07FD /* Debug */ = {
+		7C8DFDA621EF678E00D7C1D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = BoxOffice/Info.plist;
+				INFOPLIST_FILE = AutoLayout_Rotate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.8DUN.BoxOffice;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.8DUN.AutoLayout-Rotate";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		7C39EFD521DE3E17001B07FD /* Release */ = {
+		7C8DFDA721EF678E00D7C1D2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = BoxOffice/Info.plist;
+				INFOPLIST_FILE = AutoLayout_Rotate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.8DUN.BoxOffice;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.8DUN.AutoLayout-Rotate";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -343,25 +315,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7C39EFBC21DE3E14001B07FD /* Build configuration list for PBXProject "BoxOffice" */ = {
+		7C8DFD8E21EF678E00D7C1D2 /* Build configuration list for PBXProject "AutoLayout_Rotate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7C39EFD121DE3E17001B07FD /* Debug */,
-				7C39EFD221DE3E17001B07FD /* Release */,
+				7C8DFDA321EF678E00D7C1D2 /* Debug */,
+				7C8DFDA421EF678E00D7C1D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7C39EFD321DE3E17001B07FD /* Build configuration list for PBXNativeTarget "BoxOffice" */ = {
+		7C8DFDA521EF678E00D7C1D2 /* Build configuration list for PBXNativeTarget "AutoLayout_Rotate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7C39EFD421DE3E17001B07FD /* Debug */,
-				7C39EFD521DE3E17001B07FD /* Release */,
+				7C8DFDA621EF678E00D7C1D2 /* Debug */,
+				7C8DFDA721EF678E00D7C1D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 7C39EFB921DE3E14001B07FD /* Project object */;
+	rootObject = 7C8DFD8B21EF678E00D7C1D2 /* Project object */;
 }

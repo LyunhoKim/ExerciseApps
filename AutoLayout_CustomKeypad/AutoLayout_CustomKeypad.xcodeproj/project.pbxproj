@@ -7,29 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7C8DFDF121F4913900D7C1D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8DFDF021F4913900D7C1D2 /* AppDelegate.swift */; };
-		7C8DFDF321F4913900D7C1D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8DFDF221F4913900D7C1D2 /* ViewController.swift */; };
-		7C8DFDF621F4913900D7C1D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C8DFDF421F4913900D7C1D2 /* Main.storyboard */; };
-		7C8DFDF821F4913B00D7C1D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C8DFDF721F4913B00D7C1D2 /* Assets.xcassets */; };
-		7C8DFDFB21F4913B00D7C1D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C8DFDF921F4913B00D7C1D2 /* LaunchScreen.storyboard */; };
-		7C8DFE0421F4926B00D7C1D2 /* Cert_BG.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 7C8DFE0221F4926B00D7C1D2 /* Cert_BG.PNG */; };
-		7C8DFE0521F4926B00D7C1D2 /* Cert_Sample.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 7C8DFE0321F4926B00D7C1D2 /* Cert_Sample.PNG */; };
+		7C8DFE1321F4AEAA00D7C1D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8DFE1221F4AEAA00D7C1D2 /* AppDelegate.swift */; };
+		7C8DFE1521F4AEAA00D7C1D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8DFE1421F4AEAA00D7C1D2 /* ViewController.swift */; };
+		7C8DFE1821F4AEAA00D7C1D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C8DFE1621F4AEAA00D7C1D2 /* Main.storyboard */; };
+		7C8DFE1A21F4AEAC00D7C1D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C8DFE1921F4AEAC00D7C1D2 /* Assets.xcassets */; };
+		7C8DFE1D21F4AEAC00D7C1D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C8DFE1B21F4AEAC00D7C1D2 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7C8DFDED21F4913900D7C1D2 /* AutoLayout_Cert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayout_Cert.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7C8DFDF021F4913900D7C1D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7C8DFDF221F4913900D7C1D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7C8DFDF521F4913900D7C1D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7C8DFDF721F4913B00D7C1D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7C8DFDFA21F4913B00D7C1D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7C8DFDFC21F4913B00D7C1D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7C8DFE0221F4926B00D7C1D2 /* Cert_BG.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cert_BG.PNG; sourceTree = "<group>"; };
-		7C8DFE0321F4926B00D7C1D2 /* Cert_Sample.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cert_Sample.PNG; sourceTree = "<group>"; };
+		7C8DFE0F21F4AEAA00D7C1D2 /* AutoLayout_CustomKeypad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayout_CustomKeypad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C8DFE1221F4AEAA00D7C1D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7C8DFE1421F4AEAA00D7C1D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7C8DFE1721F4AEAA00D7C1D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7C8DFE1921F4AEAC00D7C1D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7C8DFE1C21F4AEAC00D7C1D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7C8DFE1E21F4AEAC00D7C1D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7C8DFDEA21F4913900D7C1D2 /* Frameworks */ = {
+		7C8DFE0C21F4AEAA00D7C1D2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,73 +35,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7C8DFDE421F4913900D7C1D2 = {
+		7C8DFE0621F4AEAA00D7C1D2 = {
 			isa = PBXGroup;
 			children = (
-				7C8DFDEF21F4913900D7C1D2 /* AutoLayout_Cert */,
-				7C8DFDEE21F4913900D7C1D2 /* Products */,
+				7C8DFE1121F4AEAA00D7C1D2 /* AutoLayout_CustomKeypad */,
+				7C8DFE1021F4AEAA00D7C1D2 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		7C8DFDEE21F4913900D7C1D2 /* Products */ = {
+		7C8DFE1021F4AEAA00D7C1D2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7C8DFDED21F4913900D7C1D2 /* AutoLayout_Cert.app */,
+				7C8DFE0F21F4AEAA00D7C1D2 /* AutoLayout_CustomKeypad.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7C8DFDEF21F4913900D7C1D2 /* AutoLayout_Cert */ = {
+		7C8DFE1121F4AEAA00D7C1D2 /* AutoLayout_CustomKeypad */ = {
 			isa = PBXGroup;
 			children = (
-				7C8DFE0221F4926B00D7C1D2 /* Cert_BG.PNG */,
-				7C8DFE0321F4926B00D7C1D2 /* Cert_Sample.PNG */,
-				7C8DFDF021F4913900D7C1D2 /* AppDelegate.swift */,
-				7C8DFDF221F4913900D7C1D2 /* ViewController.swift */,
-				7C8DFDF421F4913900D7C1D2 /* Main.storyboard */,
-				7C8DFDF721F4913B00D7C1D2 /* Assets.xcassets */,
-				7C8DFDF921F4913B00D7C1D2 /* LaunchScreen.storyboard */,
-				7C8DFDFC21F4913B00D7C1D2 /* Info.plist */,
+				7C8DFE1221F4AEAA00D7C1D2 /* AppDelegate.swift */,
+				7C8DFE1421F4AEAA00D7C1D2 /* ViewController.swift */,
+				7C8DFE1621F4AEAA00D7C1D2 /* Main.storyboard */,
+				7C8DFE1921F4AEAC00D7C1D2 /* Assets.xcassets */,
+				7C8DFE1B21F4AEAC00D7C1D2 /* LaunchScreen.storyboard */,
+				7C8DFE1E21F4AEAC00D7C1D2 /* Info.plist */,
 			);
-			path = AutoLayout_Cert;
+			path = AutoLayout_CustomKeypad;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7C8DFDEC21F4913900D7C1D2 /* AutoLayout_Cert */ = {
+		7C8DFE0E21F4AEAA00D7C1D2 /* AutoLayout_CustomKeypad */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7C8DFDFF21F4913B00D7C1D2 /* Build configuration list for PBXNativeTarget "AutoLayout_Cert" */;
+			buildConfigurationList = 7C8DFE2121F4AEAC00D7C1D2 /* Build configuration list for PBXNativeTarget "AutoLayout_CustomKeypad" */;
 			buildPhases = (
-				7C8DFDE921F4913900D7C1D2 /* Sources */,
-				7C8DFDEA21F4913900D7C1D2 /* Frameworks */,
-				7C8DFDEB21F4913900D7C1D2 /* Resources */,
+				7C8DFE0B21F4AEAA00D7C1D2 /* Sources */,
+				7C8DFE0C21F4AEAA00D7C1D2 /* Frameworks */,
+				7C8DFE0D21F4AEAA00D7C1D2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = AutoLayout_Cert;
-			productName = AutoLayout_Cert;
-			productReference = 7C8DFDED21F4913900D7C1D2 /* AutoLayout_Cert.app */;
+			name = AutoLayout_CustomKeypad;
+			productName = AutoLayout_CustomKeypad;
+			productReference = 7C8DFE0F21F4AEAA00D7C1D2 /* AutoLayout_CustomKeypad.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7C8DFDE521F4913900D7C1D2 /* Project object */ = {
+		7C8DFE0721F4AEAA00D7C1D2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Lyunho Kim";
 				TargetAttributes = {
-					7C8DFDEC21F4913900D7C1D2 = {
+					7C8DFE0E21F4AEAA00D7C1D2 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = 7C8DFDE821F4913900D7C1D2 /* Build configuration list for PBXProject "AutoLayout_Cert" */;
+			buildConfigurationList = 7C8DFE0A21F4AEAA00D7C1D2 /* Build configuration list for PBXProject "AutoLayout_CustomKeypad" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,56 +107,54 @@
 				en,
 				Base,
 			);
-			mainGroup = 7C8DFDE421F4913900D7C1D2;
-			productRefGroup = 7C8DFDEE21F4913900D7C1D2 /* Products */;
+			mainGroup = 7C8DFE0621F4AEAA00D7C1D2;
+			productRefGroup = 7C8DFE1021F4AEAA00D7C1D2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7C8DFDEC21F4913900D7C1D2 /* AutoLayout_Cert */,
+				7C8DFE0E21F4AEAA00D7C1D2 /* AutoLayout_CustomKeypad */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7C8DFDEB21F4913900D7C1D2 /* Resources */ = {
+		7C8DFE0D21F4AEAA00D7C1D2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C8DFE0521F4926B00D7C1D2 /* Cert_Sample.PNG in Resources */,
-				7C8DFE0421F4926B00D7C1D2 /* Cert_BG.PNG in Resources */,
-				7C8DFDFB21F4913B00D7C1D2 /* LaunchScreen.storyboard in Resources */,
-				7C8DFDF821F4913B00D7C1D2 /* Assets.xcassets in Resources */,
-				7C8DFDF621F4913900D7C1D2 /* Main.storyboard in Resources */,
+				7C8DFE1D21F4AEAC00D7C1D2 /* LaunchScreen.storyboard in Resources */,
+				7C8DFE1A21F4AEAC00D7C1D2 /* Assets.xcassets in Resources */,
+				7C8DFE1821F4AEAA00D7C1D2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7C8DFDE921F4913900D7C1D2 /* Sources */ = {
+		7C8DFE0B21F4AEAA00D7C1D2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C8DFDF321F4913900D7C1D2 /* ViewController.swift in Sources */,
-				7C8DFDF121F4913900D7C1D2 /* AppDelegate.swift in Sources */,
+				7C8DFE1521F4AEAA00D7C1D2 /* ViewController.swift in Sources */,
+				7C8DFE1321F4AEAA00D7C1D2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7C8DFDF421F4913900D7C1D2 /* Main.storyboard */ = {
+		7C8DFE1621F4AEAA00D7C1D2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7C8DFDF521F4913900D7C1D2 /* Base */,
+				7C8DFE1721F4AEAA00D7C1D2 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		7C8DFDF921F4913B00D7C1D2 /* LaunchScreen.storyboard */ = {
+		7C8DFE1B21F4AEAC00D7C1D2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7C8DFDFA21F4913B00D7C1D2 /* Base */,
+				7C8DFE1C21F4AEAC00D7C1D2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -170,7 +162,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		7C8DFDFD21F4913B00D7C1D2 /* Debug */ = {
+		7C8DFE1F21F4AEAC00D7C1D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -231,7 +223,7 @@
 			};
 			name = Debug;
 		};
-		7C8DFDFE21F4913B00D7C1D2 /* Release */ = {
+		7C8DFE2021F4AEAC00D7C1D2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -286,34 +278,34 @@
 			};
 			name = Release;
 		};
-		7C8DFE0021F4913B00D7C1D2 /* Debug */ = {
+		7C8DFE2221F4AEAC00D7C1D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = AutoLayout_Cert/Info.plist;
+				INFOPLIST_FILE = AutoLayout_CustomKeypad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.8DUN.AutoLayout-Cert";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.8DUN.AutoLayout-CustomKeypad";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		7C8DFE0121F4913B00D7C1D2 /* Release */ = {
+		7C8DFE2321F4AEAC00D7C1D2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = AutoLayout_Cert/Info.plist;
+				INFOPLIST_FILE = AutoLayout_CustomKeypad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.8DUN.AutoLayout-Cert";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.8DUN.AutoLayout-CustomKeypad";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -323,25 +315,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7C8DFDE821F4913900D7C1D2 /* Build configuration list for PBXProject "AutoLayout_Cert" */ = {
+		7C8DFE0A21F4AEAA00D7C1D2 /* Build configuration list for PBXProject "AutoLayout_CustomKeypad" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7C8DFDFD21F4913B00D7C1D2 /* Debug */,
-				7C8DFDFE21F4913B00D7C1D2 /* Release */,
+				7C8DFE1F21F4AEAC00D7C1D2 /* Debug */,
+				7C8DFE2021F4AEAC00D7C1D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7C8DFDFF21F4913B00D7C1D2 /* Build configuration list for PBXNativeTarget "AutoLayout_Cert" */ = {
+		7C8DFE2121F4AEAC00D7C1D2 /* Build configuration list for PBXNativeTarget "AutoLayout_CustomKeypad" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7C8DFE0021F4913B00D7C1D2 /* Debug */,
-				7C8DFE0121F4913B00D7C1D2 /* Release */,
+				7C8DFE2221F4AEAC00D7C1D2 /* Debug */,
+				7C8DFE2321F4AEAC00D7C1D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 7C8DFDE521F4913900D7C1D2 /* Project object */;
+	rootObject = 7C8DFE0721F4AEAA00D7C1D2 /* Project object */;
 }

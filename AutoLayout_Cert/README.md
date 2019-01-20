@@ -3,10 +3,7 @@ AutoLayout을 이용하여 이미지 위에 다른 View의 위치와 Label의 �
 
 Screen Shot
 ---
-iPhoneXS
-![screen_xs](./screen_xs.png =250x)
+iPhoneXS & iPhone5s
 
-iPhone5s
-![screen_5s](./screen_5s.png =250x)
-
-
+<img src="./screen_xs.png" width="250">
+<img src="./screen_5s.png" width="250">

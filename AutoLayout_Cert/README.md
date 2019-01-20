@@ -5,4 +5,4 @@ Screen Shot
 ---
 iPhoneXS & iPhone5s
 
-<img src="./screen_xs.png" width="250"> <img src="./screen_5s.png" width="250">
+<img src="./screen_xs.png" width="375"> <img src="./screen_5s.png" width="213">

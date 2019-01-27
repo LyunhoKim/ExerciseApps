@@ -7,4 +7,4 @@ Screen Shot
 ---
 iPhoneXS
 
-<img src="./screen1.png" width="375"> <img src="./screen_5s.png" width="213">
+<img src="./screen1.png" width="375">

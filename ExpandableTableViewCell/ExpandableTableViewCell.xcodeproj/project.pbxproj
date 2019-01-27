@@ -7,29 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7C8DFE1321F4AEAA00D7C1D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8DFE1221F4AEAA00D7C1D2 /* AppDelegate.swift */; };
-		7C8DFE1521F4AEAA00D7C1D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8DFE1421F4AEAA00D7C1D2 /* ViewController.swift */; };
-		7C8DFE1821F4AEAA00D7C1D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C8DFE1621F4AEAA00D7C1D2 /* Main.storyboard */; };
-		7C8DFE1A21F4AEAC00D7C1D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C8DFE1921F4AEAC00D7C1D2 /* Assets.xcassets */; };
-		7C8DFE1D21F4AEAC00D7C1D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C8DFE1B21F4AEAC00D7C1D2 /* LaunchScreen.storyboard */; };
-		7C8DFE2521F9FD8000D7C1D2 /* NumberKeypad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C8DFE2421F9FD8000D7C1D2 /* NumberKeypad.xib */; };
-		7C8DFE2721FA041200D7C1D2 /* CustomKeypad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8DFE2621FA041200D7C1D2 /* CustomKeypad.swift */; };
+		7C7008C821FD883C00299371 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7008C721FD883C00299371 /* AppDelegate.swift */; };
+		7C7008CA21FD883C00299371 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7008C921FD883C00299371 /* ViewController.swift */; };
+		7C7008CD21FD883C00299371 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C7008CB21FD883C00299371 /* Main.storyboard */; };
+		7C7008CF21FD883D00299371 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C7008CE21FD883D00299371 /* Assets.xcassets */; };
+		7C7008D221FD883D00299371 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C7008D021FD883D00299371 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7C8DFE0F21F4AEAA00D7C1D2 /* AutoLayout_CustomKeypad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayout_CustomKeypad.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7C8DFE1221F4AEAA00D7C1D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7C8DFE1421F4AEAA00D7C1D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7C8DFE1721F4AEAA00D7C1D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7C8DFE1921F4AEAC00D7C1D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7C8DFE1C21F4AEAC00D7C1D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7C8DFE1E21F4AEAC00D7C1D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7C8DFE2421F9FD8000D7C1D2 /* NumberKeypad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NumberKeypad.xib; sourceTree = "<group>"; };
-		7C8DFE2621FA041200D7C1D2 /* CustomKeypad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomKeypad.swift; sourceTree = "<group>"; };
+		7C7008C421FD883C00299371 /* ExpandableTableViewCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpandableTableViewCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C7008C721FD883C00299371 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7C7008C921FD883C00299371 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7C7008CC21FD883C00299371 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7C7008CE21FD883D00299371 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7C7008D121FD883D00299371 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7C7008D321FD883D00299371 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7C8DFE0C21F4AEAA00D7C1D2 /* Frameworks */ = {
+		7C7008C121FD883C00299371 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,73 +35,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7C8DFE0621F4AEAA00D7C1D2 = {
+		7C7008BB21FD883C00299371 = {
 			isa = PBXGroup;
 			children = (
-				7C8DFE1121F4AEAA00D7C1D2 /* AutoLayout_CustomKeypad */,
-				7C8DFE1021F4AEAA00D7C1D2 /* Products */,
+				7C7008C621FD883C00299371 /* ExpandableTableViewCell */,
+				7C7008C521FD883C00299371 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		7C8DFE1021F4AEAA00D7C1D2 /* Products */ = {
+		7C7008C521FD883C00299371 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7C8DFE0F21F4AEAA00D7C1D2 /* AutoLayout_CustomKeypad.app */,
+				7C7008C421FD883C00299371 /* ExpandableTableViewCell.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7C8DFE1121F4AEAA00D7C1D2 /* AutoLayout_CustomKeypad */ = {
+		7C7008C621FD883C00299371 /* ExpandableTableViewCell */ = {
 			isa = PBXGroup;
 			children = (
-				7C8DFE1221F4AEAA00D7C1D2 /* AppDelegate.swift */,
-				7C8DFE1421F4AEAA00D7C1D2 /* ViewController.swift */,
-				7C8DFE2621FA041200D7C1D2 /* CustomKeypad.swift */,
-				7C8DFE1621F4AEAA00D7C1D2 /* Main.storyboard */,
-				7C8DFE1921F4AEAC00D7C1D2 /* Assets.xcassets */,
-				7C8DFE2421F9FD8000D7C1D2 /* NumberKeypad.xib */,
-				7C8DFE1B21F4AEAC00D7C1D2 /* LaunchScreen.storyboard */,
-				7C8DFE1E21F4AEAC00D7C1D2 /* Info.plist */,
+				7C7008C721FD883C00299371 /* AppDelegate.swift */,
+				7C7008C921FD883C00299371 /* ViewController.swift */,
+				7C7008CB21FD883C00299371 /* Main.storyboard */,
+				7C7008CE21FD883D00299371 /* Assets.xcassets */,
+				7C7008D021FD883D00299371 /* LaunchScreen.storyboard */,
+				7C7008D321FD883D00299371 /* Info.plist */,
 			);
-			path = AutoLayout_CustomKeypad;
+			path = ExpandableTableViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7C8DFE0E21F4AEAA00D7C1D2 /* AutoLayout_CustomKeypad */ = {
+		7C7008C321FD883C00299371 /* ExpandableTableViewCell */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7C8DFE2121F4AEAC00D7C1D2 /* Build configuration list for PBXNativeTarget "AutoLayout_CustomKeypad" */;
+			buildConfigurationList = 7C7008D621FD883D00299371 /* Build configuration list for PBXNativeTarget "ExpandableTableViewCell" */;
 			buildPhases = (
-				7C8DFE0B21F4AEAA00D7C1D2 /* Sources */,
-				7C8DFE0C21F4AEAA00D7C1D2 /* Frameworks */,
-				7C8DFE0D21F4AEAA00D7C1D2 /* Resources */,
+				7C7008C021FD883C00299371 /* Sources */,
+				7C7008C121FD883C00299371 /* Frameworks */,
+				7C7008C221FD883C00299371 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = AutoLayout_CustomKeypad;
-			productName = AutoLayout_CustomKeypad;
-			productReference = 7C8DFE0F21F4AEAA00D7C1D2 /* AutoLayout_CustomKeypad.app */;
+			name = ExpandableTableViewCell;
+			productName = ExpandableTableViewCell;
+			productReference = 7C7008C421FD883C00299371 /* ExpandableTableViewCell.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7C8DFE0721F4AEAA00D7C1D2 /* Project object */ = {
+		7C7008BC21FD883C00299371 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Lyunho Kim";
 				TargetAttributes = {
-					7C8DFE0E21F4AEAA00D7C1D2 = {
+					7C7008C321FD883C00299371 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = 7C8DFE0A21F4AEAA00D7C1D2 /* Build configuration list for PBXProject "AutoLayout_CustomKeypad" */;
+			buildConfigurationList = 7C7008BF21FD883C00299371 /* Build configuration list for PBXProject "ExpandableTableViewCell" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,56 +107,54 @@
 				en,
 				Base,
 			);
-			mainGroup = 7C8DFE0621F4AEAA00D7C1D2;
-			productRefGroup = 7C8DFE1021F4AEAA00D7C1D2 /* Products */;
+			mainGroup = 7C7008BB21FD883C00299371;
+			productRefGroup = 7C7008C521FD883C00299371 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7C8DFE0E21F4AEAA00D7C1D2 /* AutoLayout_CustomKeypad */,
+				7C7008C321FD883C00299371 /* ExpandableTableViewCell */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7C8DFE0D21F4AEAA00D7C1D2 /* Resources */ = {
+		7C7008C221FD883C00299371 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C8DFE2521F9FD8000D7C1D2 /* NumberKeypad.xib in Resources */,
-				7C8DFE1D21F4AEAC00D7C1D2 /* LaunchScreen.storyboard in Resources */,
-				7C8DFE1A21F4AEAC00D7C1D2 /* Assets.xcassets in Resources */,
-				7C8DFE1821F4AEAA00D7C1D2 /* Main.storyboard in Resources */,
+				7C7008D221FD883D00299371 /* LaunchScreen.storyboard in Resources */,
+				7C7008CF21FD883D00299371 /* Assets.xcassets in Resources */,
+				7C7008CD21FD883C00299371 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7C8DFE0B21F4AEAA00D7C1D2 /* Sources */ = {
+		7C7008C021FD883C00299371 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C8DFE1521F4AEAA00D7C1D2 /* ViewController.swift in Sources */,
-				7C8DFE2721FA041200D7C1D2 /* CustomKeypad.swift in Sources */,
-				7C8DFE1321F4AEAA00D7C1D2 /* AppDelegate.swift in Sources */,
+				7C7008CA21FD883C00299371 /* ViewController.swift in Sources */,
+				7C7008C821FD883C00299371 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7C8DFE1621F4AEAA00D7C1D2 /* Main.storyboard */ = {
+		7C7008CB21FD883C00299371 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7C8DFE1721F4AEAA00D7C1D2 /* Base */,
+				7C7008CC21FD883C00299371 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		7C8DFE1B21F4AEAC00D7C1D2 /* LaunchScreen.storyboard */ = {
+		7C7008D021FD883D00299371 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7C8DFE1C21F4AEAC00D7C1D2 /* Base */,
+				7C7008D121FD883D00299371 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -170,7 +162,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		7C8DFE1F21F4AEAC00D7C1D2 /* Debug */ = {
+		7C7008D421FD883D00299371 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -231,7 +223,7 @@
 			};
 			name = Debug;
 		};
-		7C8DFE2021F4AEAC00D7C1D2 /* Release */ = {
+		7C7008D521FD883D00299371 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -286,34 +278,34 @@
 			};
 			name = Release;
 		};
-		7C8DFE2221F4AEAC00D7C1D2 /* Debug */ = {
+		7C7008D721FD883D00299371 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = AutoLayout_CustomKeypad/Info.plist;
+				INFOPLIST_FILE = ExpandableTableViewCell/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.8DUN.AutoLayout-CustomKeypad";
+				PRODUCT_BUNDLE_IDENTIFIER = com.8DUN.ExpandableTableViewCell;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		7C8DFE2321F4AEAC00D7C1D2 /* Release */ = {
+		7C7008D821FD883D00299371 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = AutoLayout_CustomKeypad/Info.plist;
+				INFOPLIST_FILE = ExpandableTableViewCell/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.8DUN.AutoLayout-CustomKeypad";
+				PRODUCT_BUNDLE_IDENTIFIER = com.8DUN.ExpandableTableViewCell;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -323,25 +315,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7C8DFE0A21F4AEAA00D7C1D2 /* Build configuration list for PBXProject "AutoLayout_CustomKeypad" */ = {
+		7C7008BF21FD883C00299371 /* Build configuration list for PBXProject "ExpandableTableViewCell" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7C8DFE1F21F4AEAC00D7C1D2 /* Debug */,
-				7C8DFE2021F4AEAC00D7C1D2 /* Release */,
+				7C7008D421FD883D00299371 /* Debug */,
+				7C7008D521FD883D00299371 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7C8DFE2121F4AEAC00D7C1D2 /* Build configuration list for PBXNativeTarget "AutoLayout_CustomKeypad" */ = {
+		7C7008D621FD883D00299371 /* Build configuration list for PBXNativeTarget "ExpandableTableViewCell" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7C8DFE2221F4AEAC00D7C1D2 /* Debug */,
-				7C8DFE2321F4AEAC00D7C1D2 /* Release */,
+				7C7008D721FD883D00299371 /* Debug */,
+				7C7008D821FD883D00299371 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 7C8DFE0721F4AEAA00D7C1D2 /* Project object */;
+	rootObject = 7C7008BC21FD883C00299371 /* Project object */;
 }

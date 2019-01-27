@@ -8,14 +8,18 @@
 
 import UIKit
 
-class CustomKeypad: UIView {
+protocol CustomKeypadDelegate {
+    func deliverButtonValue(number: String)
+}
 
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+class CustomKeypad: UIView {
+    
+    var delegate: CustomKeypadDelegate?
+
+    @IBAction func numberTapped(_ sender: UIButton) {
+        delegate?.deliverButtonValue(number: sender.titleLabel!.text!)
+        
     }
-    */
+    
 
 }

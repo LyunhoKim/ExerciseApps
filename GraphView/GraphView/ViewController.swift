@@ -8,6 +8,25 @@
 
 import UIKit
 
+
+extension NSLayoutConstraint {
+    
+    func changeMultiplier(value: CGFloat) -> NSLayoutConstraint {
+        
+        NSLayoutConstraint.deactivate([self])
+        
+        let newConstraint = NSLayoutConstraint(item: self.firstItem, attribute: self.firstAttribute, relatedBy: self.relation, toItem: self.secondItem, attribute: self.secondAttribute, multiplier: value, constant: self.constant)
+        
+        newConstraint.priority = self.priority
+        newConstraint.shouldBeArchived = self.shouldBeArchived
+        newConstraint.identifier = self.identifier
+        
+        NSLayoutConstraint.activate([newConstraint])
+        
+        return newConstraint
+    }
+}
+
 class ViewController: UIViewController {
     
     
@@ -19,9 +38,37 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
     }
 
+    @IBAction func button1(_ sender: Any) {
+        UIView.animate(withDuration: 0.5) {
+            self.graph1Height = self.graph1Height.changeMultiplier(value: 0.5)
+            self.graph2Height = self.graph2Height.changeMultiplier(value: 0.6)
+            self.graph3Height = self.graph3Height.changeMultiplier(value: 0.7)
+            self.graph4Height = self.graph4Height.changeMultiplier(value: 0.8)
+            self.graph5Height = self.graph5Height.changeMultiplier(value: 0.9)
+            
 
+
+            self.view.layoutIfNeeded()
+        }
+        
+    }
+    
+    
+    @IBAction func button2(_ sender: Any) {
+        UIView.animate(withDuration: 0.5) {
+            self.graph1Height = self.graph1Height.changeMultiplier(value: 0.9)
+            self.graph2Height = self.graph2Height.changeMultiplier(value: 0.8)
+            self.graph3Height = self.graph3Height.changeMultiplier(value: 0.7)
+            self.graph4Height = self.graph4Height.changeMultiplier(value: 0.6)
+            self.graph5Height = self.graph5Height.changeMultiplier(value: 0.5)
+            self.view.layoutIfNeeded()
+        }
+        
+    }
+    
+    
 }
 

@@ -66,13 +66,31 @@
                                     <constraint firstAttribute="bottom" secondItem="4iO-f8-BTR" secondAttribute="bottom" constant="10" id="xFh-5T-0Lt"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TcH-Aa-ebc">
+                                <rect key="frame" x="86" y="453.5" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="button2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ysh-Df-LiQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tKk-Qa-SLE">
+                                <rect key="frame" x="20" y="453.5" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="button1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NVq-KH-pqb"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="TcH-Aa-ebc" firstAttribute="leading" secondItem="tKk-Qa-SLE" secondAttribute="trailing" constant="20" id="F7Z-Vw-7Fp"/>
+                            <constraint firstItem="tKk-Qa-SLE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="IJz-jy-wq2"/>
+                            <constraint firstItem="TcH-Aa-ebc" firstAttribute="top" secondItem="oAc-hr-eZh" secondAttribute="bottom" constant="20" id="IhQ-YE-cZJ"/>
                             <constraint firstItem="oAc-hr-eZh" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.3" id="L5C-QF-Pxm"/>
                             <constraint firstItem="oAc-hr-eZh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="QWp-Kk-Pbp"/>
                             <constraint firstItem="oAc-hr-eZh" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="TIM-dd-7dJ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oAc-hr-eZh" secondAttribute="trailing" constant="10" id="dJq-nt-rk5"/>
+                            <constraint firstItem="tKk-Qa-SLE" firstAttribute="top" secondItem="oAc-hr-eZh" secondAttribute="bottom" constant="20" id="zN5-Nh-k9q"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

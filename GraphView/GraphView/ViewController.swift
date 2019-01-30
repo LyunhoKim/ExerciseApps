@@ -13,14 +13,17 @@ extension NSLayoutConstraint {
     
     func changeMultiplier(value: CGFloat) -> NSLayoutConstraint {
         
+        // 현재 constranint 비활성화
         NSLayoutConstraint.deactivate([self])
         
+        // 새로운 constraint 생성 - multiplier 외에 동일하게 생성
         let newConstraint = NSLayoutConstraint(item: self.firstItem, attribute: self.firstAttribute, relatedBy: self.relation, toItem: self.secondItem, attribute: self.secondAttribute, multiplier: value, constant: self.constant)
         
         newConstraint.priority = self.priority
         newConstraint.shouldBeArchived = self.shouldBeArchived
         newConstraint.identifier = self.identifier
         
+        // 생성한 constratint 활성화
         NSLayoutConstraint.activate([newConstraint])
         
         return newConstraint

@@ -1,6 +1,6 @@
 커스텀 이미지뷰
 * UIImageView를 SubClassing 구현
-* UIBeizerPath, CAShapeLayer
+* UIBeizerPath, CAShapeLayer, CGPath
 * @IBDesignable, @IBInspectable
 
 

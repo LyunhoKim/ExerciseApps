@@ -19,18 +19,17 @@
                 <rect key="frame" x="0.0" y="0.0" width="484" height="206.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="youBubble" translatesAutoresizingMaskIntoConstraints="NO" id="ZLz-kd-yMS">
-                        <rect key="frame" x="5" y="5" width="375" height="196.5"/>
-                        <color key="backgroundColor" red="1" green="0.217305636" blue="0.18206932170000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yourBubble" translatesAutoresizingMaskIntoConstraints="NO" id="ZLz-kd-yMS">
+                        <rect key="frame" x="5" y="5" width="65" height="196.5"/>
                         <rect key="contentStretch" x="0.5" y="0.5" width="0.0" height="0.0"/>
                     </imageView>
-                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="755" verticalHuggingPriority="755" scrollEnabled="NO" text="asdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdf" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cYY-ge-eYv">
-                        <rect key="frame" x="30" y="5" width="345" height="196.5"/>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="755" verticalHuggingPriority="755" scrollEnabled="NO" text="text" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cYY-ge-eYv">
+                        <rect key="frame" x="30" y="5" width="35" height="196.5"/>
                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                     </textView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2019.01.01" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="INW-Hf-ZgE">
-                        <rect key="frame" x="390" y="189.5" width="51" height="12"/>
+                        <rect key="frame" x="80" y="189.5" width="51" height="12"/>
                         <fontDescription key="fontDescription" type="system" pointSize="10"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
@@ -57,6 +56,6 @@
         </tableViewCell>
     </objects>
     <resources>
-        <image name="youBubble" width="179" height="151"/>
+        <image name="yourBubble" width="66.5" height="52.5"/>
     </resources>
 </document>

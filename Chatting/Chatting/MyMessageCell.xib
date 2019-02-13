@@ -25,6 +25,7 @@
                     </imageView>
                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="755" verticalHuggingPriority="755" scrollEnabled="NO" text="text" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hcC-f3-3ni">
                         <rect key="frame" x="398" y="5" width="35" height="168.5"/>
+                        <rect key="contentStretch" x="0.5" y="0.5" width="0.0" height="0.0"/>
                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                     </textView>

@@ -20,6 +20,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     @IBOutlet var textViewBottomConstraint: NSLayoutConstraint!
     var messages: [String] = [String]()
     
+    @IBOutlet var messageTextViewHeight: NSLayoutConstraint!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -47,7 +48,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     }
     
-    
+    // TextView 사이즈 handling
     @objc func keyboardWillShow(notification: Notification) {
         
         // notificaiton 정보 배열
@@ -93,6 +94,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         chatTableView.scrollToRow(at: IndexPath(row: messages.count - 1, section: 0), at: .bottom, animated: true)
         
+        self.messageTextViewHeight.constant = 40
+        
         
     }
     
@@ -116,7 +119,13 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     
     func textViewDidChange(_ textView: UITextView) {
-//        textView.contentSize.height
+        if textView.contentSize.height < 40 {
+            self.messageTextViewHeight.constant = 40
+        } else if textView.contentSize.height > 100 {
+            self.messageTextViewHeight.constant = 100
+        } else {
+            self.messageTextViewHeight.constant = textView.contentSize.height
+        }
     }
     
     

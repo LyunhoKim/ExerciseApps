@@ -12,26 +12,25 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MyMessageCell" rowHeight="417" id="KGk-i7-Jjw" customClass="MyMessageCell" customModule="Chatting" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="422" height="417"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MyMessageCell" rowHeight="179" id="KGk-i7-Jjw" customClass="MyMessageCell" customModule="Chatting" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="463" height="179"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="422" height="416.5"/>
+                <rect key="frame" x="0.0" y="0.0" width="463" height="178.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="meBubble" translatesAutoresizingMaskIntoConstraints="NO" id="W2Z-5J-jPY">
-                        <rect key="frame" x="144" y="5" width="273" height="406.5"/>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="meBubble" translatesAutoresizingMaskIntoConstraints="NO" id="W2Z-5J-jPY">
+                        <rect key="frame" x="385" y="5" width="73" height="168.5"/>
                         <rect key="contentStretch" x="0.5" y="0.5" width="0.0" height="0.0"/>
                     </imageView>
-                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hcC-f3-3ni">
-                        <rect key="frame" x="157" y="5" width="235" height="406.5"/>
-                        <string key="text">messagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessage</string>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="755" verticalHuggingPriority="755" scrollEnabled="NO" text="text" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hcC-f3-3ni">
+                        <rect key="frame" x="398" y="5" width="35" height="168.5"/>
                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                     </textView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2019.02.13" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dHp-XN-nhk">
-                        <rect key="frame" x="45" y="390.5" width="84" height="21"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <rect key="frame" x="317.5" y="161.5" width="52.5" height="12"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
@@ -44,7 +43,7 @@
                     <constraint firstAttribute="trailing" secondItem="W2Z-5J-jPY" secondAttribute="trailing" constant="5" id="WTY-ol-Egq"/>
                     <constraint firstItem="hcC-f3-3ni" firstAttribute="bottom" secondItem="W2Z-5J-jPY" secondAttribute="bottom" id="eqO-5w-dYF"/>
                     <constraint firstItem="hcC-f3-3ni" firstAttribute="leading" secondItem="W2Z-5J-jPY" secondAttribute="leading" constant="13" id="fUa-Qg-BK5"/>
-                    <constraint firstItem="W2Z-5J-jPY" firstAttribute="bottom" secondItem="dHp-XN-nhk" secondAttribute="bottom" id="g5E-kA-9Xm"/>
+                    <constraint firstItem="W2Z-5J-jPY" firstAttribute="bottom" secondItem="dHp-XN-nhk" secondAttribute="bottom" priority="999" id="g5E-kA-9Xm"/>
                     <constraint firstItem="dHp-XN-nhk" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="40" id="qTu-FC-sMK"/>
                     <constraint firstItem="hcC-f3-3ni" firstAttribute="trailing" secondItem="W2Z-5J-jPY" secondAttribute="trailing" constant="-25" id="qdT-6Q-UU3"/>
                 </constraints>
@@ -53,7 +52,7 @@
             <connections>
                 <outlet property="myMessage" destination="hcC-f3-3ni" id="BDe-yD-1sB"/>
             </connections>
-            <point key="canvasLocation" x="100.8" y="183.95802098950526"/>
+            <point key="canvasLocation" x="64.799999999999997" y="76.911544227886068"/>
         </tableViewCell>
     </objects>
     <resources>
